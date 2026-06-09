@@ -9,6 +9,18 @@
 body {
   background: url(img/bg-desktop-blue.webp);
   font-family: Josefin Sans;
+}
+.cabecalho{
+  background-color: azure;
+  padding: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cabecalho__link{
+  color: black;
+  text-decoration: nome;
+}
  .cartao__conteudo {
   background-color: var(--card-front-color);
   text-align: center;
